@@ -1,0 +1,98 @@
+{
+    "author": "astosia",
+    "dependencies": {
+        "pebble-clay": "^1.0.4",
+        "pebble-fctx": "^1.5.0",
+        "pebble-fctx-compiler": "^1.2.2"
+    },
+    "keywords": [],
+    "name": "oswald-vertical-4.2",
+    "pebble": {
+        "capabilities": [
+            "configurable"
+        ],
+        "displayName": "Oswald vertical (4.2)",
+        "enableMultiJS": true,
+        "messageKeys": [
+            "Back1Color",
+            "Text1Color",
+            "Text2Color",
+            "HourColor",
+            "MinColor",
+            "bluetoothvibe",
+            "Text3Color",
+            "Text4Color",
+            "Text5Color",
+            "FrameColor1",
+            "Text6Color",
+            "QuietStart",
+            "QuietEnd",
+            "QuietTime"
+        ],
+        "projectType": "native",
+        "resources": {
+            "media": [
+                {
+                    "file": "fonts/Weathericons",
+                    "name": "FONT_WEATHERICONS_20",
+                    "targetPlatforms": null,
+                    "type": "font"
+                },
+                {
+                    "file": "fonts/Weathericons",
+                    "name": "FONT_WEATHERICONS_18",
+                    "targetPlatforms": null,
+                    "type": "font"
+                },
+                {
+                    "file": "fonts/Dripicons",
+                    "name": "FONT_DRIPICONS_18",
+                    "targetPlatforms": null,
+                    "type": "font"
+                },
+                {
+                    "file": "fonts/Dripicons",
+                    "name": "FONT_DRIPICONS_16",
+                    "targetPlatforms": null,
+                    "type": "font"
+                },
+                {
+                    "file": "data/STEELFISH BIG",
+                    "name": "FONT_STEELFISH",
+                    "targetPlatforms": null,
+                    "type": "raw"
+                },
+                {
+                    "file": "data/Oswald.ffont",
+                    "name": "OSWALD_FFONT",
+                    "targetPlatforms": null,
+                    "type": "raw"
+                },
+                {
+                    "file": "data/Open sans ffont",
+                    "name": "OPENSANSCON_FFONT",
+                    "targetPlatforms": null,
+                    "type": "raw"
+                },
+                {
+                    "file": "data/DIN",
+                    "name": "FONT_DINCONBOLD",
+                    "targetPlatforms": null,
+                    "type": "raw"
+                }
+            ]
+        },
+        "sdkVersion": "3",
+        "targetPlatforms": [
+            "aplite",
+            "basalt",
+            "chalk",
+            "diorite"
+        ],
+        "uuid": "0bb6e304-511d-4f92-8c0c-bc703f7f28ff",
+        "watchapp": {
+            "watchface": true
+        }
+    },
+    "version": "1.0.0"
+}
